@@ -5,7 +5,8 @@
 2*) A= π nomp σ year(fechadesc) ≥ 1950 ∧ year(fechadesc) ≤ 2016 Pla
     π nomas,uni (As ⨝ (D ⨝ A))
 3*) π nomp,cantal,nomas ((Pla ⨝ D) ⨝ As)
-4*) A= π nomas σ uni='Universidad de Antioquía' As FALTA TERMINAR
+4*) A= π nomas σ uni='Universidad de Antioquía' As FALTA TERMINAR PORQUE NO HAY INFORMACION DEL DESCUBRIMIENTO DE SATELITES, SOLO DE PLANETAS
+5*) π nomp, fechadesc (Pla ⨝ (π nomp Pla - π planeta S))
     
     
     
